@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,8 +14,216 @@
     <!-- // 부트스트랩 CSS cdn -->
   </head>
   <body>
-    <div>부트스트랩 학습</div>
-    <button type="button" class="btn btn-daner btn-warning">Danger</button>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <!-- <nav
+      class="navbar bg-dark border-bottom border-body navbar-expand-lg bg-body-tertiary"
+    > -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">StartUp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- // Nav -->
+
+    <!-- Form -->
+    <div class="container">
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label for="inputPassword6" class="col-form-label">Password</label>
+        </div>
+        <div class="col-auto">
+          <input
+            type="password"
+            id="inputPassword6"
+            class="form-control"
+            aria-describedby="passwordHelpInline"
+          />
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text">
+            Must be 8-20 characters long.
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- // Form -->
+
+    <!-- Grid & Card -->
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://yt3.googleusercontent.com/YrmkXD6CEOb32tWCp2Dcr4-S-vD9dNrq6-0kbqBIGUYnys9_JMAeUsG1G9RswfNMmyjTItC2=s900-c-k-c0x00ffffff-no-rj"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://yt3.googleusercontent.com/YrmkXD6CEOb32tWCp2Dcr4-S-vD9dNrq6-0kbqBIGUYnys9_JMAeUsG1G9RswfNMmyjTItC2=s900-c-k-c0x00ffffff-no-rj"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://yt3.googleusercontent.com/YrmkXD6CEOb32tWCp2Dcr4-S-vD9dNrq6-0kbqBIGUYnys9_JMAeUsG1G9RswfNMmyjTItC2=s900-c-k-c0x00ffffff-no-rj"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://yt3.googleusercontent.com/YrmkXD6CEOb32tWCp2Dcr4-S-vD9dNrq6-0kbqBIGUYnys9_JMAeUsG1G9RswfNMmyjTItC2=s900-c-k-c0x00ffffff-no-rj"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // Grid & Card -->
+
+    <!-- Modal Area -->
+
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#chutzritModal"
+    >
+      Launch demo modal
+    </button>
+    <!-- Modal content -->
+    <div
+      class="modal fade"
+      id="chutzritModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">알림</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">알려드릴 내용이 있습니다</div>
+          <div class="modal-footer">
+            <button type="button" id="saveButton" class="btn btn-primary">
+              저장
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // Modal content -->
 
     <!-- 부트스트랩 JS cdn -->
     <script
@@ -24,5 +232,20 @@
       crossorigin="anonymous"
     ></script>
     <!-- // 부트스트랩 JS cdn -->
+
+    <script>
+      // modal 저장시 닫힘 기능
+      document.addEventListener("DOMContentLoaded", function () {
+        const saveButton = document.getElementById("saveButton");
+
+        const modalElement = document.getElementById("chutzritModal");
+        const modal = new bootstrap.Modal(modalElement);
+
+        saveButton.addEventListener("click", function () {
+          console.log("close", modal);
+          modal.hide(); // 모달 닫기
+        });
+      });
+    </script>
   </body>
 </html>
